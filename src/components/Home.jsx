@@ -5,8 +5,8 @@ import { Link } from 'react-scroll';
 const Home = () => {
 
         const btn =[
-            {name:"About",link:"about"},
-            {name:"Projects",link:"projects"}
+            {name:"Projects",link:"projects"},
+            {name:"Contact us",link:"contact"}
         ]
 
     return (
@@ -17,7 +17,7 @@ const Home = () => {
                     <h6 className='text-5xl mt-12 '>Hello, I'm</h6>
                     <h1 className='font-semibold text-3xl md:text-7xl my-4'>Aarush Goyal</h1>
                     <div className='container'>
-                    <p className='md:w-12/12 text-3xl text-primary'><Typewriter
+                    <p className='md:w-12/12 text-1xl md:text-3xl text-primary'><Typewriter
                     onInit={(typewriter) => {
                     typewriter
                         .typeString("A Java Developer")
