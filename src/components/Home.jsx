@@ -10,7 +10,7 @@ const Home = () => {
         ]
 
     return (
-        <div className='px-7 md:px-10 my-15 md:h-screen bg-[#1a1a29]' id='home'>
+        <div className='px-7 md:px-10 my-15 bg-[#1a1a29]' id='home'>
             <div className='w-full flex flex-col md:flex-row items-center justify-between'>
                 {/* text */}
                 <div className='text-white'>
