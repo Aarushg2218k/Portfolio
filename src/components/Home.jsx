@@ -1,7 +1,14 @@
 import React from 'react';
 import heroimg from '../assets/mypic.jpg';
 import Typewriter from 'typewriter-effect';
+import { Link } from 'react-scroll';
 const Home = () => {
+
+        const btn =[
+            {name:"About",link:"about"},
+            {name:"Projects",link:"projects"}
+        ]
+
     return (
         <div className='px-7 md:px-10 my-15 md:h-screen bg-[#1a1a29]' id='home'>
             <div className='w-full flex flex-col md:flex-row items-center justify-between'>
@@ -27,8 +34,20 @@ const Home = () => {
                     {/* buttons */}
 
                     <div className='mt-5'>
-                        <button className='btn bg-primary py-2 px-4 text-white rounded hover:bg-white hover:text-primary transition-all duration-500' id='about'>About me</button>
-                        <button  className='btn outline px-6 py-1.5 rounded border-none text-white ml-5' id='projects'>Projects</button>
+                    {
+                btn.map((link)=>{
+                  return(
+                  <button key={link.name} className="btn bg-primary py-2 px-6 rounded-full text-white hover:bg-white transition-all  md:ml-8 md:my-0 my-7 font-semibold">
+                  <Link
+                  to={link.link}
+                  activeClass="active"
+                  smooth={true}
+                  spy={true}
+                  className="text-white transition-all duration-500 hover:text-primary cursor-pointer">{link.name}</Link>
+                  </button>
+                  )
+                })
+              }
                     </div>
                 </div>
                 {/* img */}
