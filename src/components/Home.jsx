@@ -14,10 +14,10 @@ const Home = () => {
             <div className='w-full flex flex-col md:flex-row items-center justify-between'>
                 {/* text */}
                 <div className='text-white'>
-                    <h6 className='text-5xl mt-12 '>Hello, I'm</h6>
-                    <h1 className='font-semibold text-3xl md:text-7xl my-4'>Aarush Goyal</h1>
+                    <h6 className='text-3xl mt-12 md:text-4xl '>Hello, I'm</h6>
+                    <h1 className='font-semibold text-4xl md:text-5xl my-4'>Aarush Goyal</h1>
                     <div className='container'>
-                    <p className='md:w-12/12 text-1xl md:text-3xl text-primary'><Typewriter
+                    <p className='md:w-12/12 text-2xl md:text-3xl text-primary'><Typewriter
                     onInit={(typewriter) => {
                     typewriter
                         .typeString("A Java Developer")
