@@ -17,7 +17,7 @@ const About = () => {
       <h3 className='text-3xl text-primary font-semibold mt-10 md:mt-18'>Skills :- </h3>
     <div className='flex flex-wrap'>
     <div className="w-40 h-40 bg-gradient-to-b from-primary to-white rounded-md overflow-hidden shadow-lg m-4 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center">
         <div className="text-black text-center">
           <div className="font-bold text-sm mb-2 "> <FaHtml5 size={70} /></div>
           <p className="text-xs font-semibold text-lg">Html 5</p>
@@ -25,7 +25,7 @@ const About = () => {
       </div>
     </div>
     <div className="w-40 h-40 bg-gradient-to-b from-primary to-white rounded-md overflow-hidden shadow-lg m-4 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center">
         <div className="text-black text-center">
           <div className="font-bold text-sm mb-2 "> <FaCss3 size={70} /></div>
           <p className="text-xs font-semibold text-lg">Css</p>
@@ -33,7 +33,7 @@ const About = () => {
       </div>
     </div>
     <div className="w-40 h-40 bg-gradient-to-b from-primary to-white rounded-md overflow-hidden shadow-lg m-4 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center">
         <div className="text-black text-center">
           <div className="font-bold text-sm mb-2 place-content-center "> <DiJavascript size={70} /></div>
           <p className="text-xs font-semibold text-lg">Javascript</p>
@@ -41,7 +41,7 @@ const About = () => {
       </div>
     </div>
     <div className="w-40 h-40 bg-gradient-to-b from-primary to-white rounded-md overflow-hidden shadow-lg m-4 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center">
         <div className="text-black text-center">
           <div className="font-bold text-sm mb-2 "> <FaNodeJs size={70} /></div>
           <p className="text-xs font-semibold text-lg">Node js</p>
@@ -49,7 +49,7 @@ const About = () => {
       </div>
     </div>
     <div className="w-40 h-40 bg-gradient-to-b from-primary to-white rounded-md overflow-hidden hidden md:block shadow-lg m-4 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center">
         <div className="text-black text-center">
           <div className="font-bold text-sm mb-2 "> <SiAngularjs size={70} /></div>
           <p className="text-xs font-semibold text-lg">Angular js</p>
@@ -57,7 +57,7 @@ const About = () => {
       </div>
     </div>
     <div className="w-40 h-40 bg-gradient-to-b from-primary to-white rounded-md overflow-hidden hidden md:block shadow-lg m-4 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center">
         <div className="text-black text-center">
           <div className="font-bold text-sm mb-2 "> <FaNodeJs size={70} /></div>
           <p className="text-xs font-semibold text-lg">Express js</p>
@@ -65,7 +65,7 @@ const About = () => {
       </div>
     </div>
     <div className="w-40 h-40 bg-gradient-to-b from-primary to-white rounded-md overflow-hidden shadow-lg m-4 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center">
         <div className="text-black text-center">
           <div className="font-bold text-sm mb-2 "> <FaReact size={70} /></div>
           <p className="text-xs font-semibold text-lg">React</p>
@@ -73,7 +73,7 @@ const About = () => {
       </div>
     </div>
     <div className="w-40 h-40 bg-gradient-to-b from-primary to-white rounded-md overflow-hidden shadow-lg m-4 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center">
         <div className="text-black text-center">
           <div className="font-bold text-sm mb-2 "> <FaGithub size={70} /></div>
           <p className="text-xs font-semibold text-lg">Github</p>
@@ -81,7 +81,7 @@ const About = () => {
       </div>
     </div>
     <div className="w-40 h-40 bg-gradient-to-b from-primary to-white rounded-md overflow-hidden shadow-lg m-4 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center">
         <div className="text-black text-center">
           <div className="font-bold text-sm mb-2 "> <TbBrandMysql size={70} /></div>
           <p className="text-xs font-semibold text-lg">Mysql</p>
@@ -89,7 +89,7 @@ const About = () => {
       </div>
     </div>
     <div className="w-40 h-40 bg-gradient-to-b from-primary to-white rounded-md overflow-hidden shadow-lg m-4 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center">
         <div className="text-black text-center">
           <div className="font-bold text-sm mb-2 "> <DiMongodb size={70} /></div>
           <p className="text-xs font-semibold text-lg">Mongodb</p>
@@ -97,7 +97,7 @@ const About = () => {
       </div>
     </div>
     <div className="w-40 h-40 bg-gradient-to-b from-primary to-white rounded-md overflow-hidden hidden md:block shadow-lg m-4 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center">
         <div className="text-black text-center">
           <div className="font-bold text-sm mb-2 "> <FaBootstrap size={70} /></div>
           <p className="text-xs font-semibold text-lg">Bootstrap</p>
@@ -105,7 +105,7 @@ const About = () => {
       </div>
     </div>
     <div className="w-40 h-40 bg-gradient-to-b from-primary to-white rounded-md overflow-hidden shadow-lg m-4 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center">
         <div className="text-black text-center">
           <div className="font-bold text-sm mb-2 "> <SiTailwindcss size={70} /></div>
           <p className="text-xs font-semibold text-lg">Tailwind</p>
