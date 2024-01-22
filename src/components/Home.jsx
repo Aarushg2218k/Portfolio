@@ -27,8 +27,8 @@ const Home = () => {
                     {/* buttons */}
 
                     <div className='mt-5'>
-                        <button className='btn bg-primary py-2 px-4 text-white rounded hover:bg-white hover:text-primary transition-all duration-500'>About me</button>
-                        <button  className='btn outline px-6 py-1.5 rounded border-none text-white ml-5'>Projects</button>
+                        <button className='btn bg-primary py-2 px-4 text-white rounded hover:bg-white hover:text-primary transition-all duration-500' id='about'>About me</button>
+                        <button  className='btn outline px-6 py-1.5 rounded border-none text-white ml-5' id='projects'>Projects</button>
                     </div>
                 </div>
                 {/* img */}
