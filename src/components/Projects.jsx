@@ -1,5 +1,7 @@
 import React from 'react';
 import joyride from '../assets/projects/joyride.png';
+import healhub from '../assets/projects/landing page.png';
+import gift from '../assets/projects/Landing-page.png';
 
 const Projects = () => {
   const projects = [
@@ -9,12 +11,12 @@ const Projects = () => {
     link:"https://github.com/Aarushg2218k/joyride"
     },
     {title:"Heal Hub",
-    photo:"./src/assets/projects/landing page.png",
+    photo:healhub,
     description:"Heal Hub is a compassionate initiative connecting donors with spare medicines to individuals in need. Through a user-friendly platform, donors can easily list available medicines, while recipients can search and connect directly with dono's mobile number. Using HTML, CSS, JavaScript, Bootstrap, AngularJS, Node.js, MySQL, and jQuery.",
     link:"https://github.com/Aarushg2218k/heal-hub"
     },
     {title:"Gift Gallery",
-    photo:"./src/assets/projects/Landing-page.png",
+    photo:gift,
     description:"Gift Gallery is a user-friendly project designed to provide a seamless product browsing and ordering experience. Visitors can easily explore products and place orders by entering their details. Built with Java, this platform prioritizes simplicity, allowing users to swiftly navigate and complete orders, enhancing overall user satisfaction.",
     link:"https://github.com/Aarushg2218k/Gift-Galary"
   },
