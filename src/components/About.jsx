@@ -15,7 +15,7 @@ const About = () => {
       {/* skills */}
       
       <h3 className='text-3xl text-primary font-semibold mt-10 md:mt-18'>Skills :- </h3>
-    <div className='flex flex-wrap'>
+    <div className='flex flex-wrap ms-2 grid sm:grid-cols-2 md:grid-cols-6'>
     <div className="w-40 h-40 bg-gradient-to-b from-primary to-white rounded-md overflow-hidden shadow-lg m-4 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
       <div className="flex items-center justify-center py-8">
         <div className="text-black text-center">
