@@ -4,9 +4,9 @@ import joyride from '../assets/projects/joyride.png';
 const Projects = () => {
   const projects = [
     {title:"Joy Ride",
-    photo:"./src/assets/projects/joyride.png",
+    photo:{joyride},
     description:"Connect unemployed vehicle owners with job opportunities and commuters seamlessly. Users register, add their vehicles, and post jobs or ride requests.Technologies: HTML, CSS, JavaScript, Bootstrap, AngularJS, Node.js, MySQL, jQuery. Enhance employment prospects and streamline commuting with DriveLink.",
-    link:{joyride}
+    link:"https://github.com/Aarushg2218k/joyride"
     },
     {title:"Heal Hub",
     photo:"./src/assets/projects/landing page.png",
