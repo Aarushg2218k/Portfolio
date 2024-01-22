@@ -37,7 +37,7 @@ const Home = () => {
                     {
                 btn.map((link)=>{
                   return(
-                  <button key={link.name} className="btn bg-primary py-2 px-6 rounded-full text-white hover:bg-white transition-all  md:ml-8 md:my-0 my-7 font-semibold">
+                  <button key={link.name} className="btn bg-primary py-2 px-6 rounded-full text-white hover:bg-white transition-all ms-2  md:ml-8 md:my-0 my-7 font-semibold">
                   <Link
                   to={link.link}
                   activeClass="active"
