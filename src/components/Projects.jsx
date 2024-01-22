@@ -2,6 +2,9 @@ import React from 'react';
 import joyride from '../assets/projects/joyride.png';
 import healhub from '../assets/projects/landing page.png';
 import gift from '../assets/projects/Landing-page.png';
+import Todo from '../assets/projects/Starting page.png';
+import Tic from '../assets/projects/Tic-Tac-Toe.png';
+import planner from '../assets/projects//tour-planner.png';
 
 const Projects = () => {
   const projects = [
@@ -21,17 +24,17 @@ const Projects = () => {
     link:"https://github.com/Aarushg2218k/Gift-Galary"
   },
     {title:"To-Do App",
-    photo:"./src/assets/projects/Starting page.png",
+    photo:Todo,
     description:"To-Do is a straightforward and intuitive todo list application built with React. Seamlessly manage your tasks, add new items, mark them as complete, and delete when done. With a clean and responsive interface, offering a user-friendly experience for keeping your day organized and productive.",
     link:"https://todo-nine-cyan.vercel.app/"
   },
     {title:"Tour-Planner",
-    photo:"./src/assets/projects/tour-planner.png",
+    photo:planner,
     description:"Tour-planner, a user-friendly front-end tour exploration application developed with React. Explore captivating destinations and their corresponding costs per head. ReactTourExplorer simplifies the process, allowing users to focus on the joy of discovering new destinations and their associated costs.",
     link:"https://tour-planner-eta.vercel.app/"
   },
     {title:"Tic-Tac-Toe",
-    photo:"./src/assets/projects/Tic-Tac-Toe.png",
+    photo:Tic,
     description:"Experience the timeless joy of Tic Tac Toe in a modern context with this React-based implementation. Enjoy the nostalgic gameplay as you compete against a friend or challenge an AI opponent. The clean user interface enhances the gaming experience, providing a enjoyable way to relive this classic game.",
     link:"https://aarushg2218k.github.io/tic-tac-toe/"
   },
