@@ -7,7 +7,7 @@ import { TbBrandVscode,TbBrandMysql } from "react-icons/tb";
 const About = () => {
 
   return (
-    <div className='px-7 md:px-10 sm:-mt-24 md:mt-40' id="about">
+    <div className='px-7 md:px-10 sm:-mt-24' id="about">
       <h1 className='text-3xl text-primary font-semibold mt-10 md:mt-1'>About me</h1>
       <p className='text-white my-2 md:w-4/5 leading-[2] text-xl'>
         Hi, my name is Aarush Goyal, i am a fullstack web developer. I have honed my skills in web development and now am doing MERN stack Course to enhance my skills for being a MERN stack web developer.
