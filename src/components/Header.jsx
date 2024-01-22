@@ -24,7 +24,7 @@ const Header = () => {
           }
         </div>
           {/* Nav Link item */}
-          <ul className={`md:flex md:item-center ms-4 md:pb-0 absolute md:static md:z-auto z-10 left-0 w-full md:w-auto mt-4 md:mt-0 md:pl-0 md:pl-9 bg-slate-400 sm:bg-slate-400 md:bg-slate-400  sm:bg-transparent transition-all duration-500 ease-in ${open ? "top-12" : "top-[-490px]"}`}>
+          <ul className={`md:flex md:item-center ms-4 md:pb-0 absolute md:static md:z-auto z-10 left-0 w-full md:w-auto mt-4 md:mt-0 md:pl-9 bg-slate-400 md:bg-transparent  sm:bg-slate-400 transition-all duration-500 ease-in ${open ? "top-12" : "top-[-490px]"}`}>
               {
                 Links.map((link)=>{
                   return(
