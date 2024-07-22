@@ -1,5 +1,5 @@
 import React from 'react';
-import heroimg from '../assets/mypic.jpeg';
+import heroimg from '../assets/mypic.jpg';
 import Typewriter from 'typewriter-effect';
 import { Link } from 'react-scroll';
 const Home = () => {
